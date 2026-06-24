@@ -206,7 +206,7 @@ def calculate_user_risk(master_alert):
 
 summary_alert = calculate_user_risk(master_alert)
 
-master_alert.to_csv("risk_alerts",index=False)
+master_alert.to_csv("risk_alerts.csv",index=False)
 
 df['is_suspicious'] = 0
 
